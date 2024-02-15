@@ -2,8 +2,10 @@ body{
 	margin:0;
 	margin-top:120px;
 }
+div{
+	margin:0;
+}
   
-
 @font-face{
 	font-family:vcrmono;
 	src: url(EIfonts/VCR_OSD_MONO_1.001.ttf);
@@ -15,6 +17,7 @@ a {
 a:hover{
 	font-weight:900;
 	color:rgba(0,0,0,1.0);
+	text-shadow: 0 0 32px rgba(255, 255, 255, 1.0);
 }
 a:visited{
 	color:rgba(0,0,0,1.0)
@@ -34,7 +37,7 @@ a:visited{
 	margin-left: 20px;
 	margin-top:45px;
 	width: 600px;
-	font-family: courier;
+	font-family: vcrmono;
 	font-weight:normal;
 	color:rgba(0,0,0,1.0);
 
@@ -67,62 +70,96 @@ a:visited{
 	width:;
  	background: rgba(4, 4, 4, 0.2)
 }
-.about{
+#aboutnav{
 	height:1500px;
 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0));
  /*green*/
 }
+#about{
+	font-family: courier;
+}
 
-.library{
+#librarynav{
 	height:900px;
 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(255, 211, 58, 1.0) /*yellow*/, rgba(255, 255, 255, 1.0))
 
 }
 
-.the-drewth{
+#library{
+	text-align: center;
+	  position:relative;
+       font-family:vcrmono;
+       font-size: 100pt;
+       top:200px;
+       left:200 px;
+       color: rgba(0, 0, 0, 1.0);
+}
+
+.button-section{
+	text-align: center;
+	margin-top:300px
+}
+
+.button1{
+	  background-color: rgba(255, 255, 255, 0.0);
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 1.0);
+  font-family: courier;
+  font-weight: normal;
+  font-size: 20pt;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin:15px;
+
+}
+.button1:hover{
+	background-color: rgba(252, 159, 49, 1.0);
+}
+
+#the-drewth-nav{
 	height:900px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 87, 148, 1.0)/*magenta*/,rgba(255, 255, 255, 1.0))
 }
 
-.trauma-dump{
+#trauma-dump-nav{
 	height:900px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(252, 159, 49, 1.0) /*orange*/,rgba(255, 255, 255, 1.0))
  }
 
-.alcohol-and-drug-abuse{
+#alcohol-and-drug-abuse-nav{
 	height:900px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0))
 }
 
-.conspiracy-theories{
+#conspiracy-theories-nav{
 	height:900px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 211, 58, 1.0) /*yellow*/, rgba(255, 255, 255, 1.0))
  }
 
-.childhood{
+#childhood-nav{
 	height:900px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 87, 148, 1.0)/*magenta*/,rgba(255, 255, 255, 1.0))
 }
-.special-guests-episodes{
+#special-guests-episodes-nav{
 	height:900px;
 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(252, 159, 49, 1.0) /*orange*/,rgba(255, 255, 255, 1.0))
  }
 
-.holiday-episodes{
+#holiday-episodes-nav{
 	height:900px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0)) /*green*/
 }
 
-.zoom-episodes{
+#zoom-episodes-nav{
 	height:900px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 211, 58, 1.0) /*yellow*/, rgba(255, 255, 255, 1.0))
 }
 
-.merchandise{
+#merchandisenav{
 	height:1000px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 87, 148, 1.0)/*magenta*/,rgba(255, 255, 255, 1.0))
 }
-.events{
+#eventsnav{
 	height:2000px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0)) /*green*/
 }
