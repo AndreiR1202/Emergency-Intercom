@@ -462,7 +462,7 @@ position: relative;
 }
 .Lbutton{
 	position: relative;
-		margin-top: -600px;
+		margin-top: -580px;
 	text-align: left;
 		z-index: 15;
 		width:200px;
@@ -471,7 +471,7 @@ position: relative;
 .Rbutton{
 	position: relative;
 
-	margin: -200px 0 0 auto;
+	margin: -180px 0 0 auto;
 text-align: right;
 		z-index: 15;
 			width:200px;
@@ -504,7 +504,7 @@ text-align: right;
 	display: flex;
 	z-index:8;
 	transition: 0.5s;
-		margin-top: 400px;
+		margin-top: 430px;
 				transition: 0.5s;
 }
 .drewth-thumbnail1:hover{
@@ -517,7 +517,7 @@ text-align: right;
 		display: flex;
 		z-index:7;
 		transition: 0.5s;
-			margin-top: 400px;
+			margin-top: 430px;
 				transition: 0.5s;
 }
 .drewth-thumbnail2:hover{
@@ -530,7 +530,7 @@ text-align: right;
 			display: flex;
 			z-index:6;
 			transition: 0.5s;
-				margin-top: 400px;
+				margin-top: 430px;
 				transition: 0.5s;
 }
 .drewth-thumbnail3:hover{
@@ -543,7 +543,7 @@ text-align: right;
 			display: flex;
 			z-index:5;
 			transition: 0.5s;
-				margin-top: 400px;
+				margin-top: 430px;
 				transition: 0.5s;
 }
 .drewth-thumbnail4:hover{
@@ -556,7 +556,7 @@ text-align: right;
 				display: flex;
 				z-index:4;
 				transition: 0.5s;
-					margin-top: 400px;
+					margin-top: 430px;
 				transition: 0.5s;
 }
 .drewth-thumbnail5:hover{
@@ -569,7 +569,7 @@ text-align: right;
 					display: flex;
 					z-index:3;
 					transition: 0.5s;
-						margin-top: 400px;
+						margin-top: 430px;
 				transition: 0.5s;
 }
 .drewth-thumbnail6:hover{
@@ -582,7 +582,7 @@ text-align: right;
 						display: flex;
 						z-index:2;
 						transition: 0.5s;
-							margin-top: 400px;
+							margin-top: 430px;
 				transition: 0.5s;
 }
 .drewth-thumbnail7:hover{
@@ -595,7 +595,7 @@ text-align: right;
 							display: flex;
 							z-index:1;
 							transition: 0.5s;
-								margin-top: 400px;
+								margin-top: 430px;
 				transition: 0.5s;
 }
 .drewth-thumbnail8:hover{
