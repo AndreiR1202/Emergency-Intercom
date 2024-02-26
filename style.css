@@ -447,6 +447,12 @@ button{
 .extra{
 	background: rgba(0, 0, 0, 0.0);
 }
+.drewth-line{
+	position: relative;
+	text-align: center;
+	top:150px;
+	height: 60px;
+}
 
 .drewth-container{
 		width: 100%;
@@ -462,10 +468,10 @@ position: relative;
 }
 .Lbutton{
 	position: relative;
-		margin-top: -580px;
+		margin-top: -830px;
 	text-align: left;
 		z-index: 15;
-		width:200px;
+		width:100px;
 		height:200px;
 }
 .Rbutton{
@@ -474,7 +480,7 @@ position: relative;
 	margin: -180px 0 0 auto;
 text-align: right;
 		z-index: 15;
-			width:200px;
+			width:100px;
 		height:200px;
 }
 .icon-left{
@@ -498,18 +504,127 @@ text-align: right;
 .icon-right:hover{
 	transform: scale(1.3)
 }
+
+.epnom-magenta{
+	font-family: vcrmono;
+	font-size: 12pt;
+	position: relative;
+	top: 60px;
+	left: 0px;
+	width: 130px;
+	transform: rotate(30deg) skew(30deg);
+	 opacity: 0; 
+	 text-align: center;
+ visibility: hidden; 
+ -webkit-transition: visibility 0s, opacity 0.5s linear;  
+ transition: visibility 0s, opacity 0.5s linear;
+   border: 1px solid rgba(0, 0, 0, 1.0);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.0);
+  background-image: linear-gradient(0deg, rgba(255, 87, 148, 1.0)/*magenta*/,rgba(255, 255, 255, 1.0));
+  padding: 6px;
+}
+.eptitle{
+	font-family: vcrmono;
+	font-size: 12pt;
+	position: relative;
+	top: -95px;
+	left: -15px;
+	height: 100px;
+width:330px;
+	transform: rotate(30deg) skew(30deg);
+	 opacity: 0; 
+	 text-align: right;
+ visibility: hidden; 
+ -webkit-transition: visibility 0s, opacity 0.5s linear;  
+ transition: visibility 0s, opacity 0.5s linear;
+}
+.timestamp{
+	font-family: vcrmono;
+	font-size: 8pt;
+	position: relative;
+	top: -50px;
+	left: 250px;
+	 opacity: 0; 
+	 width: 35px;
+	 text-align: center;
+ visibility: hidden; 
+ 	transform: rotate(30deg) skew(30deg);
+ -webkit-transition: visibility 0s, opacity 0.5s linear;  
+ transition: visibility 0s, opacity 0.5s linear;
+  border: 1px solid rgba(0, 0, 0, 0.0);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2px;
+}
+
+.topic-header{
+	font-family: vcrmono;
+	font-size: 25pt;
+	position: relative;
+		margin-top: 110px;
+	text-align: left;
+	left: 55px;
+		z-index: 15;
+		width:300px;
+		height:100pxpx;
+		display: flex;
+}
+.topic-number{
+	font-family: vcrmono;
+	font-size: 25pt;
+		position: relative;
+
+	margin: -50px -108px 0 auto;
+text-align: right;
+		z-index: 15;
+			width:200px;
+		height:200px;
+		display: flex;
+	}
+	.subtopics{
+text-align:justify;
+	margin-top:-110px;
+	margin-left: 45px;
+	width:1550px;
+
+}
+
+.button-sub a{
+	  background-color: rgba(255, 255, 255, 0.0);
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 1.0);
+  font-family: courier-new;
+  font-weight: normal;
+  font-size: 12pt;
+  border-radius: 20px;
+  padding: 8px 10px;
+  margin:10px;
+  text-decoration: none;
+  line-height: 18px;
+  text-align: justify;
+}
+
+.button-sub a:hover{
+	background-color: rgba(255, 255, 255, 1.0);
+
+}
 .drewth-thumbnail1{
 		width: 250px;
 	height: 150px;
 	display: flex;
 	z-index:8;
 	transition: 0.5s;
-		margin-top: 430px;
+		margin-top: 160px;
 				transition: 0.5s;
 }
 .drewth-thumbnail1:hover{
 	cursor: pointer;
 	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drewth-thumbnail1:hover div{
+		 visibility: visible; 
+ opacity: 1; 
 }
 		.drewth-thumbnail2{
 			width: 250px;
@@ -517,12 +632,16 @@ text-align: right;
 		display: flex;
 		z-index:7;
 		transition: 0.5s;
-			margin-top: 430px;
+			margin-top: 160px;
 				transition: 0.5s;
 }
 .drewth-thumbnail2:hover{
 	cursor: pointer;
 	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drewth-thumbnail2:hover div{
+		 visibility: visible; 
+ opacity: 1; 
 }
 			.drewth-thumbnail3{
 				width: 250px;
@@ -530,12 +649,16 @@ text-align: right;
 			display: flex;
 			z-index:6;
 			transition: 0.5s;
-				margin-top: 430px;
+				margin-top: 160px;
 				transition: 0.5s;
 }
 .drewth-thumbnail3:hover{
 	cursor: pointer;
 	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drewth-thumbnail3:hover div{
+		 visibility: visible; 
+ opacity: 1; 
 }
 				.drewth-thumbnail4{
 				width: 250px;
@@ -543,12 +666,16 @@ text-align: right;
 			display: flex;
 			z-index:5;
 			transition: 0.5s;
-				margin-top: 430px;
+				margin-top: 160px;
 				transition: 0.5s;
 }
 .drewth-thumbnail4:hover{
 	cursor: pointer;
 	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drewth-thumbnail4:hover div{
+		 visibility: visible; 
+ opacity: 1; 
 }
 					.drewth-thumbnail5{
 					width: 250px;
@@ -556,12 +683,16 @@ text-align: right;
 				display: flex;
 				z-index:4;
 				transition: 0.5s;
-					margin-top: 430px;
+					margin-top: 160px;
 				transition: 0.5s;
 }
 .drewth-thumbnail5:hover{
 	cursor: pointer;
 	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drewth-thumbnail5:hover div{
+		 visibility: visible; 
+ opacity: 1; 
 }
 						.drewth-thumbnail6{
 						width: 250px;
@@ -569,12 +700,16 @@ text-align: right;
 					display: flex;
 					z-index:3;
 					transition: 0.5s;
-						margin-top: 430px;
+						margin-top: 160px;
 				transition: 0.5s;
 }
 .drewth-thumbnail6:hover{
 	cursor: pointer;
 	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drewth-thumbnail6:hover div{
+		 visibility: visible; 
+ opacity: 1; 
 }
 							.drewth-thumbnail7{
 							width: 250px;
@@ -582,12 +717,16 @@ text-align: right;
 						display: flex;
 						z-index:2;
 						transition: 0.5s;
-							margin-top: 430px;
+							margin-top: 160px;
 				transition: 0.5s;
 }
 .drewth-thumbnail7:hover{
 	cursor: pointer;
 	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drewth-thumbnail7:hover div{
+		 visibility: visible; 
+ opacity: 1; 
 }
 								.drewth-thumbnail8{
 								width: 250px;
@@ -595,12 +734,16 @@ text-align: right;
 							display: flex;
 							z-index:1;
 							transition: 0.5s;
-								margin-top: 430px;
+								margin-top: 160px;
 				transition: 0.5s;
 }
 .drewth-thumbnail8:hover{
 	cursor: pointer;
 	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drewth-thumbnail8:hover div{
+		 visibility: visible; 
+ opacity: 1; 
 }
 
 									.end{
