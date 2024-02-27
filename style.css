@@ -30,6 +30,11 @@ div{
 	color:rgba(0,0,0,1.0);
 	text-shadow: 0 0 32px rgba(255, 255, 255, 1.0);
 }
+.socials{
+	position:relative;
+		margin: 0 10 0 auto;
+		opacity: 0;
+}
 .EIig a{
 	  text-decoration: none;
   color: rgba(0, 0, 0, 1.0);
@@ -441,13 +446,13 @@ button{
 	background-color: rgba(252, 159, 49, 1.0);
 
 }
+
+
 #the-drewth-nav{
 	height:1100px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 87, 148, 1.0)/*magenta*/,rgba(255, 255, 255, 1.0))
 }
-.extra{
-	background: rgba(0, 0, 0, 0.0);
-}
+
 .drewth-line{
 	position: relative;
 	text-align: center;
@@ -455,18 +460,6 @@ button{
 	height: 60px;
 }
 
-.drewth-container{
-		width: 100%;
-height:100%;
-position: relative;
-	display: grid;
-	grid-template-columns: repeat(9, 1fr);
-	grid template-rows: repeat(1,1fr);
-	overflow-x: scroll;
-	scroll-behavior: smooth;
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
-}
 .Lbutton{
 	position: relative;
 		margin-top: -830px;
@@ -525,21 +518,7 @@ text-align: right;
   background-image: linear-gradient(0deg, rgba(255, 87, 148, 1.0)/*magenta*/,rgba(255, 255, 255, 1.0));
   padding: 6px;
 }
-.eptitle{
-	font-family: vcrmono;
-	font-size: 12pt;
-	position: relative;
-	top: -95px;
-	left: -15px;
-	height: 100px;
-width:330px;
-	transform: rotate(30deg) skew(30deg);
-	 opacity: 0; 
-	 text-align: right;
- visibility: hidden; 
- -webkit-transition: visibility 0s, opacity 0.5s linear;  
- transition: visibility 0s, opacity 0.5s linear;
-}
+
 .timestamp{
 	font-family: vcrmono;
 	font-size: 8pt;
@@ -579,7 +558,7 @@ width:330px;
 	margin: -50px -100px 0 auto;
 text-align: right;
 		z-index: 15;
-			width:200px;
+			width:100px;
 		height:200px;
 		display: flex;
 	}
@@ -588,6 +567,7 @@ text-align:justify;
 	margin-top:-110px;
 	margin-left: 55px;
 	width:1550px;
+
 
 }
 
@@ -971,11 +951,690 @@ body:has(.button-sub8:hover) .drewth-thumbnail8 div{
 																	margin-top: 220px;
 		
 }
+
+
+
 #trauma-dump-nav{
-	height:900px;
+	height:1100px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(252, 159, 49, 1.0) /*orange*/,rgba(255, 255, 255, 1.0))
  }
 
+.trauma-line{
+	position: relative;
+	text-align: center;
+	top:150px;
+	height: 60px;
+}
+
+.container{
+		width: 100%;
+height:100%;
+position: relative;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid template-rows: repeat(1,1fr);
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+.container2{
+		width: 100%;
+height:100%;
+position: relative;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid template-rows: repeat(1,1fr);
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+
+.Lbutton2{
+	position: relative;
+		margin-top: -890px;
+	text-align: left;
+		z-index: 15;
+		width:100px;
+		height:200px;
+}
+.Rbutton2{
+	position: relative;
+	margin: -180px 0 0 auto;
+text-align: right;
+		z-index: 15;
+			width:100px;
+		height:200px;
+}
+.icon-left{
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 70px;
+	padding: 30px;
+	cursor:pointer;
+	transition: 0.5s
+}
+.icon-left:hover{
+	transform: scale(1.3)
+}
+.icon-right {
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 70px;
+	padding: 30px;
+	cursor:pointer;
+	transition: 0.5s
+
+}
+.icon-right:hover{
+	transform: scale(1.3)
+}
+
+.epnom-orange{
+	font-family: vcrmono;
+	font-size: 12pt;
+	position: relative;
+	top: 60px;
+	left: 0px;
+	width: 130px;
+	transform: rotate(30deg) skew(30deg);
+	 opacity: 0; 
+	 text-align: center;
+ visibility: hidden; 
+ -webkit-transition: visibility 0s, opacity 0.5s linear;  
+ transition: visibility 0s, opacity 0.5s linear;
+   border: 1px solid rgba(0, 0, 0, 1.0);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.0);
+  background-image: linear-gradient(0deg,  rgba(252, 159, 49, 1.0) /*orange*/,rgba(255, 255, 255, 1.0));
+  padding: 6px;
+}
+.eptitle{
+	font-family: vcrmono;
+	font-size: 12pt;
+	position: relative;
+	top: -90px;
+	left: 5px;
+	height: 100px;
+width:310px;
+	transform: rotate(30deg) skew(30deg);
+	 opacity: 0; 
+	 text-align: right;
+ visibility: hidden; 
+ -webkit-transition: visibility 0s, opacity 0.5s linear;  
+ transition: visibility 0s, opacity 0.5s linear;
+}
+.timestamp{
+	font-family: vcrmono;
+	font-size: 8pt;
+	position: relative;
+	top: -55px;
+	left: 235px;
+	 opacity: 0; 
+	 width: 50px;
+	 text-align: center;
+ visibility: hidden; 
+ 	transform: rotate(30deg) skew(30deg);
+ -webkit-transition: visibility 0s, opacity 0.5s linear;  
+ transition: visibility 0s, opacity 0.5s linear;
+  border: 1px solid rgba(0, 0, 0, 0.0);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2px;
+}
+
+.topic-header{
+	font-family: vcrmono;
+	font-size: 25pt;
+	position: relative;
+		margin-top: 110px;
+	text-align: left;
+	left: 62px;
+		z-index: 15;
+		width:300px;
+		height:100pxpx;
+		display: flex;
+}
+.topic-number{
+	font-family: vcrmono;
+	font-size: 25pt;
+		position: relative;
+
+	margin: -50px -100px 0 auto;
+text-align: right;
+		z-index: 15;
+			width:200px;
+		height:200px;
+		display: flex;
+
+}
+.subtopics-2{
+text-align:justify;
+	margin-top:-110px;
+	margin-left: 55px;
+	width:1550px;
+	position: relative;
+
+
+}
+.button-sub1-2 {
+  color: rgba(255, 255, 255, 1.0);
+  border: 1px solid rgba(255, 255, 255, 1.0);
+  font-family: courier-new;
+  font-weight: normal;
+  font-size: 12pt;
+  border-radius: 0px;
+  padding: 8px 10px;
+  margin:10px;
+  text-decoration: none;
+  line-height: 18px;
+  text-align: justify;
+}
+.button-sub1-2:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+		.button-sub2-2 {
+	  color: rgba(255, 255, 255, 1.0);
+	  border: 1px solid rgba(255, 255, 255, 1.0);
+	  font-family: courier-new;
+	  font-weight: normal;
+	  font-size: 12pt;
+	  border-radius: 0px;
+	  padding: 8px 10px;
+	  margin:10px;
+	  text-decoration: none;
+	  line-height: 18px;
+	  text-align: justify;
+	}
+	.button-sub2-2:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+				.button-sub3-2 {
+		  color: rgba(255, 255, 255, 1.0);
+		  border: 1px solid rgba(255, 255, 255, 1.0);
+		  font-family: courier-new;
+		  font-weight: normal;
+		  font-size: 12pt;
+		  border-radius: 0px;
+		  padding: 8px 10px;
+		  margin:10px;
+		  text-decoration: none;
+		  line-height: 18px;
+		  text-align: justify;
+		}
+		.button-sub3-2:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+					.button-sub4-2 {
+			  color: rgba(255, 255, 255, 1.0);
+			  border: 1px solid rgba(255, 255, 255, 1.0);
+			  font-family: courier-new;
+			  font-weight: normal;
+			  font-size: 12pt;
+			  border-radius: 0px;
+			  padding: 8px 10px;
+			  margin:10px;
+			  text-decoration: none;
+			  line-height: 18px;
+			  text-align: justify;
+			}
+			.button-sub4-2:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+					.button-sub5-2 {
+				  color: rgba(255, 255, 255, 1.0);
+				  border: 1px solid rgba(255, 255, 255, 1.0);
+				  font-family: courier-new;
+				  font-weight: normal;
+				  font-size: 12pt;
+				  border-radius: 0px;
+				  padding: 8px 10px;
+				  margin:10px;
+				  text-decoration: none;
+				  line-height: 18px;
+				  text-align: justify;
+						}
+						.button-sub5-2:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+						.button-sub6-2 {
+					  color: rgba(255, 255, 255, 1.0);
+					  border: 1px solid rgba(255, 255, 255, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+					}
+					.button-sub6-2:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+					  	.button-sub7-2 {
+						  color: rgba(255, 255, 255, 1.0);
+						  border: 1px solid rgba(255, 255, 255, 1.0);
+						  font-family: courier-new;
+						  font-weight: normal;
+						  font-size: 12pt;
+						  border-radius: 0px;
+						  padding: 8px 10px;
+						  margin:10px;
+						  text-decoration: none;
+						  line-height: 18px;
+						  text-align: justify;
+						}
+						.button-sub7-2:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+						  	.button-sub8-2 {
+							  color: rgba(255, 255, 255, 1.0);
+							  border: 1px solid rgba(255, 255, 255, 1.0);
+							  font-family: courier-new;
+							  font-weight: normal;
+							  font-size: 12pt;
+							  border-radius: 0px;
+							  padding: 8px 10px;
+							  margin:10px;
+							  text-decoration: none;
+							  line-height: 18px;
+							  text-align: justify;
+							}
+							.button-sub8-2:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+										.button-sub9-2 {
+										  color: rgba(255, 255, 255, 1.0);
+										  border: 1px solid rgba(255, 255, 255, 1.0);
+										  font-family: courier-new;
+										  font-weight: normal;
+										  font-size: 12pt;
+										  border-radius: 0px;
+										  padding: 8px 10px;
+										  margin:10px;
+										  text-decoration: none;
+										  line-height: 18px;
+										  text-align: justify;
+										}
+										.button-sub9-2:hover{
+					color: rgba(0, 0, 0, 1.0);
+				 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+													.button-sub10-2 {
+										  color: rgba(255, 255, 255, 1.0);
+										  border: 1px solid rgba(255, 255, 255, 1.0);
+										  font-family: courier-new;
+										  font-weight: normal;
+										  font-size: 12pt;
+										  border-radius: 0px;
+										  padding: 8px 10px;
+										  margin:10px;
+										  text-decoration: none;
+										  line-height: 18px;
+										  text-align: justify;
+										}
+										.button-sub10-2:hover{
+					color: rgba(0, 0, 0, 1.0);
+				 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+
+													.button-sub11-2 {
+												  color: rgba(255, 255, 255, 1.0);
+												  border: 1px solid rgba(255, 255, 255, 1.0);
+												  font-family: courier-new;
+												  font-weight: normal;
+												  font-size: 12pt;
+												  border-radius: 0px;
+												  padding: 8px 10px;
+												  margin:10px;
+												  text-decoration: none;
+												  line-height: 18px;
+												  text-align: justify;
+												}
+												.button-sub11-2:hover{
+							color: rgba(0, 0, 0, 1.0);
+						 border: 1px solid rgba(0, 0, 0, 1.0);
+												}
+.trauma-thumbnail1{
+		width: 250px;
+	height: 150px;
+	display: flex;
+	z-index:11;
+	transition: 0.5s;
+		margin-top: 100px;
+				transition: 0.5s;
+}
+.trauma-thumbnail1:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.trauma-thumbnail1:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.trauma-thumbnail1:hover) .button-sub1-2{
+	color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+body:has(.button-sub1-2:hover) .trauma-thumbnail1{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub1-2:hover) .trauma-thumbnail1 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+
+		.trauma-thumbnail2{
+			width: 250px;
+		height: 150px;
+		display: flex;
+		z-index:10;
+		transition: 0.5s;
+			margin-top: 100px;
+				transition: 0.5s;
+}
+.trauma-thumbnail2:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.trauma-thumbnail2:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.trauma-thumbnail2:hover) .button-sub2-2{
+	color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+body:has(.button-sub2-2:hover) .trauma-thumbnail2{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub2-2:hover) .trauma-thumbnail2 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+			.trauma-thumbnail3{
+				width: 250px;
+			height: 150px;
+			display: flex;
+			z-index:9;
+			transition: 0.5s;
+				margin-top: 100px;
+				transition: 0.5s;
+}
+.trauma-thumbnail3:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.trauma-thumbnail3:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.trauma-thumbnail3:hover) .button-sub3-2{
+	color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+body:has(.button-sub3-2:hover) .trauma-thumbnail3{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub3-2:hover) .trauma-thumbnail3 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+				.trauma-thumbnail4{
+				width: 250px;
+			height: 150px;
+			display: flex;
+			z-index:8;
+			transition: 0.5s;
+				margin-top: 100px;
+				transition: 0.5s;
+}
+.trauma-thumbnail4:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.trauma-thumbnail4:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.trauma-thumbnail4:hover) .button-sub4-2{
+	color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+body:has(.button-sub4-2:hover) .trauma-thumbnail4{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub4-2:hover) .trauma-thumbnail4 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+					.trauma-thumbnail5{
+					width: 250px;
+				height: 150px;
+				display: flex;
+				z-index:7;
+				transition: 0.5s;
+					margin-top: 100px;
+				transition: 0.5s;
+}
+.trauma-thumbnail5:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.trauma-thumbnail5:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.trauma-thumbnail5:hover) .button-sub5-2{
+	color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+body:has(.button-sub5-2:hover) .trauma-thumbnail5{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub5-2:hover) .trauma-thumbnail5 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+						.trauma-thumbnail6{
+						width: 250px;
+					height: 150px;
+					display: flex;
+					z-index:6;
+					transition: 0.5s;
+						margin-top: 100px;
+				transition: 0.5s;
+}
+.trauma-thumbnail6:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.trauma-thumbnail6:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.trauma-thumbnail6:hover) .button-sub6-2{
+	color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+body:has(.button-sub6-2:hover) .trauma-thumbnail6{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub6-2:hover) .trauma-thumbnail6 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+							.trauma-thumbnail7{
+							width: 250px;
+						height: 150px;
+						display: flex;
+						z-index:5;
+						transition: 0.5s;
+							margin-top: 100px;
+				transition: 0.5s;
+}
+.trauma-thumbnail7:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.trauma-thumbnail7:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.trauma-thumbnail7:hover) .button-sub7-2{
+	color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+body:has(.button-sub7-2:hover) .trauma-thumbnail7{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub7-2:hover) .trauma-thumbnail7 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+								.trauma-thumbnail8{
+								width: 250px;
+							height: 150px;
+							display: flex;
+							z-index:4;
+							transition: 0.5s;
+								margin-top: 100px;
+				transition: 0.5s;
+}
+.trauma-thumbnail8:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.trauma-thumbnail8:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.trauma-thumbnail8:hover) .button-sub8-2{
+	color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 1.0);
+}
+body:has(.button-sub8-2:hover) .trauma-thumbnail8{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub8-2:hover) .trauma-thumbnail8 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+													.trauma-thumbnail9{
+													width: 250px;
+												height: 150px;
+												display: flex;
+												z-index:3;
+												transition: 0.5s;
+													margin-top: 100px;
+									transition: 0.5s;
+					}
+					.trauma-thumbnail9:hover{
+						cursor: pointer;
+						transform: scale(1.3) translateY(-50px)translateX(50px);
+					}
+					.trauma-thumbnail9:hover div{
+							 visibility: visible; 
+					 opacity: 1; 
+					}
+					body:has(.trauma-thumbnail9:hover) .button-sub9-2{
+						color: rgba(0, 0, 0, 1.0);
+						 border: 1px solid rgba(0, 0, 0, 1.0);
+					}
+					body:has(.button-sub9-2:hover) .trauma-thumbnail9{
+						cursor: pointer;
+						transform: scale(1.3) translateY(-50px)translateX(50px);
+					}
+					body:has(.button-sub9-2:hover) .trauma-thumbnail9 div{
+								 visibility: visible; 
+					 opacity: 1; 
+					}
+														.trauma-thumbnail10{
+																				width: 250px;
+																			height: 150px;
+																			display: flex;
+																			z-index:2;
+																			transition: 0.5s;
+																				margin-top:100px;
+																transition: 0.5s;
+												}
+												.trauma-thumbnail10:hover{
+													cursor: pointer;
+													transform: scale(1.3) translateY(-50px)translateX(50px);
+												}
+												.trauma-thumbnail10:hover div{
+														 visibility: visible; 
+												 opacity: 1; 
+												}
+												body:has(.trauma-thumbnail10:hover) .button-sub10-2{
+													color: rgba(0, 0, 0, 1.0);
+													 border: 1px solid rgba(0, 0, 0, 1.0);
+												}
+												body:has(.button-sub10-2:hover) .trauma-thumbnail10{
+													cursor: pointer;
+													transform: scale(1.3) translateY(-50px)translateX(50px);
+												}
+												body:has(.button-sub10-2:hover) .trauma-thumbnail10 div{
+															 visibility: visible; 
+												 opacity: 1; 
+												}
+																					.trauma-thumbnail11{
+																										width: 250px;
+																									height: 150px;
+																									display: flex;
+																									z-index:1;
+																									transition: 0.5s;
+																										margin-top: 100px;
+																						transition: 0.5s;
+																		}
+																		.trauma-thumbnail11:hover{
+																			cursor: pointer;
+																			transform: scale(1.3) translateY(-50px)translateX(50px);
+																		}
+																		.trauma-thumbnail11:hover div{
+																				 visibility: visible; 
+																		 opacity: 1; 
+																		}
+																		body:has(.trauma-thumbnail11:hover) .button-sub11-2{
+																			color: rgba(0, 0, 0, 1.0);
+																			 border: 1px solid rgba(0, 0, 0, 1.0);
+																		}
+																		body:has(.button-sub11-2:hover) .trauma-thumbnail11{
+																			cursor: pointer;
+																			transform: scale(1.3) translateY(-50px)translateX(50px);
+																		}
+																		body:has(.button-sub11-2:hover) .trauma-thumbnail11 div{
+																					 visibility: visible; 
+																		 opacity: 1; 
+																		}
+									.end{
+											opacity:0.0;
+										width: 150px;
+																height: 150px;
+																display: flex;
+																z-index:0;
+											
+																	margin-top: 220px;
+		
+}
 #alcohol-and-drug-abuse-nav{
 	height:900px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0))
