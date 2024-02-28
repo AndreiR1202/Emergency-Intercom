@@ -21,6 +21,10 @@ div{
 	font-family:courier-new;
 	src: url(EIfonts/Courier-New-Regular.ttf);
 }
+@font-face{
+	font-family: courier-bold;
+	src: url(EIfonts/courbd.ttf);
+}
 .header a {
   text-decoration: none;
   color: rgba(0, 0, 0, 1.0);
@@ -144,9 +148,10 @@ a:visited{
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(252, 159, 49, 1.0) /*orange*/,rgba(255, 255, 255, 1.0))
 }
 #aboutnav{
-	height:1800px;
+	height:2300px;
 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0));
  /*green*/
+
 }
 
 .EIig{
@@ -374,34 +379,169 @@ text-align: center;
 }
 
 .about-text{
-	text-align: center;
-	  position:relative;
-	  top:20px;
-       padding: 300px;
-
+	text-align: left;
+	  margin-top:200px;
+	  margin-left: 50px;
+	  width:750px;
+       padding: 100px;
+       padding-bottom:50px;
        font-family: courier-new;
        font-weight: normal;
-       font-size:24pt;
-       line-height: 46pt;
-       letter-spacing: pt;
+       font-size:20pt;
+       line-height: 28pt;
+       letter-spacing: 0pt;
+       height:auto;
+   display:block;
+   border-right: 50px rgba(0, 0, 0, 1.0);
+}
+.vertline{
+	border-right: 1px solid rgba(0, 0, 0, 1.0);
+	height: 490px;
+margin-right: -100px;
+margin-top:-450px;
+	position: relative;
+}
+.quotes{
+	text-align: left;
+	  margin-top:-640px;
+	  margin-left: 1020px;
+	  width:490px;
+       padding: 100px;
+       padding-bottom:50px;
+       font-family: courier-new;
+       font-weight: normal;
+       font-size:14pt;
+       line-height: 16pt;
+       height:auto;
+   display:block;
+   z-index: 3;
+   position: relative;
+}
+.italic{
+	font-family: courier-new;
+       font-weight: normal;
+       font-size:10pt;
+       line-height: 5px;
+       font-style: italic;
+}
+.bold{
+	ont-family: courier-new;
+       font-weight: bolder;
+       font-size:14pt;
+       line-height: 16pt;
+}
+.white-gradient1{
+	position:relative;
+	display: flex;
+	background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0));
+	width: 800px;
+	height: 300px;
+	margin-top: -630px;
+	margin-left: 940px;
+	z-index: 1;
+}
+.white-gradient2{
+	position:relative;
+	display: flex;
+	background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0));
+	width: 800px;
+	height: 300px;
+	margin-top: -130px;
+	margin-left: 940px;
+	z-index: 1;
+}
+.white-gradient3{
+	position:relative;
+	display: flex;
+	background-image: radial-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0));
+	width: 800px;
+	height: 300px;
+	margin-top: -120px;
+	margin-left: 940px;
+	z-index: 1;
 }
 .about-em{
 	 font-family: vcrmono;
        font-weight: normal;
-       font-size:24pt;
+       font-size:20pt;
 }
-.about-em2{
-
-	 background-color: rgba(255, 255, 255, 0.0);
-  color: black;
-  border: 1px solid rgba(0, 0, 0, 1.0);
-    font-family: courier-new;
+.about-em1{
+	 font-family: vcrmono;
        font-weight: normal;
-       font-size:24pt;
-       line-height: 40pt;
-       letter-spacing: pt;
-  border-radius: 40px;
-  padding: 6px 18px 6px 18px;
+       font-size:25pt;
+}
+.Lbutton0{
+	position: absolute;
+	margin: 160px auto 0 0;
+	margin-left: 3px;
+	text-align: left;
+		z-index: 15;
+		width:100px;
+		height:200px;
+}
+.Rbutton0{
+	position: absolute;
+	margin-top: 160px;
+	margin-left: 1800px;
+	float: right;
+text-align: right;
+		z-index: 15;
+			width:100px;
+		height:200px;
+}
+.container-comments{
+		width: 1690px;
+height:280px;
+margin-top: 100px;
+margin-left: 100px;
+position: relative;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid template-rows: repeat(1,1fr);
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+.comment{
+	border: 1px solid rgba(0, 0, 0, 1.0);
+	border-radius: 30px;
+	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(255, 255, 255, 0.0));
+	width: 400px;
+	height: 220px;
+	margin:10px;
+	display: flex;
+} 
+.stars{
+	margin-left: 230px;
+	margin-top: -22px;
+	position:relative ;
+}
+.username{
+	margin-left: 42px;
+	margin-top: 44px;
+	position: relative;
+	font-family:vcrmono;
+       font-size: 15pt;
+ 
+}
+.comment-text{
+		text-align: left;
+       font-family:courier-new;
+       font-size: 12pt;
+      
+       line-height: 14pt;
+       
+       color: rgba(0, 0, 0, 1.0);
+       width: 320px;
+       	top: 35px;
+       	left:40px;
+       	position: relative;
+}
+.comment-bold{
+	 font-family:courier-bold;
+       font-size: 12pt;
+       line-height: 16pt;
 }
 
 #librarynav{
@@ -412,20 +552,24 @@ text-align: center;
 
 #library{
 	text-align: center;
-	  position:relative;
        font-family:vcrmono;
        font-size: 100pt;
-       top:200px;
+       top:1500px;
        left:200 px;
        color: rgba(0, 0, 0, 1.0);
+              height:auto;
+   display:block;
+   padding-top: 200px;
 }
 button{
 	all:unset;
 }
 .button-section{
 	text-align: center;
-	margin-top:300px;
-
+	margin-top:0px;
+              height:auto;
+   display:block;
+   padding-top: 100px;
 }
 
 .button1 a{
@@ -446,8 +590,6 @@ button{
 	background-color: rgba(252, 159, 49, 1.0);
 
 }
-
-
 #the-drewth-nav{
 	height:1100px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 87, 148, 1.0)/*magenta*/,rgba(255, 255, 255, 1.0))
@@ -1672,8 +1814,10 @@ body:has(.button-sub8-2:hover) .trauma-thumbnail8 div{
 	height:2000px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0)) /*green*/
 }
-.footer{height:110px;
- 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 211, 58, 1.0) /*yellow*/)
+.footer{
+	height:120px;
+ 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 87, 148, 1.0)/*magenta*/);
+bottom:0;
 
 }
 
