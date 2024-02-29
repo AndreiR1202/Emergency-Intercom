@@ -1230,27 +1230,7 @@ text-align: right;
 			width:100px;
 		height:200px;
 }
-.icon-left{
-	color: rgba(255, 255, 255, 1.0);
-	font-size: 70px;
-	padding: 30px;
-	cursor:pointer;
-	transition: 0.5s
-}
-.icon-left:hover{
-	transform: scale(1.3)
-}
-.icon-right {
-	color: rgba(255, 255, 255, 1.0);
-	font-size: 70px;
-	padding: 30px;
-	cursor:pointer;
-	transition: 0.5s
 
-}
-.icon-right:hover{
-	transform: scale(1.3)
-}
 
 .epnom-orange{
 	font-family: vcrmono;
@@ -1313,7 +1293,7 @@ width:310px;
 	text-align: left;
 	left: 62px;
 		z-index: 15;
-		width:300px;
+		width:400px;
 		height:100pxpx;
 		display: flex;
 }
@@ -1849,17 +1829,17 @@ body:has(.button-sub8-2:hover) .trauma-thumbnail8 div{
 																						transition: 0.5s;
 																		}
 																		.trauma-thumbnail11:hover{
-																		color: rgba(0, 0, 0, 1.0);
-																	 border: 1px solid rgba(0, 0, 0, 0.0);
-																	   background-color: rgba(255, 255, 255, 0.2);
+																	cursor: pointer;
+													transform: scale(1.3) translateY(-50px)translateX(50px);
 																		}
 																		.trauma-thumbnail11:hover div{
 																				 visibility: visible; 
 																		 opacity: 1; 
 																		}
 																		body:has(.trauma-thumbnail11:hover) .button-sub11-2{
-																			color: rgba(0, 0, 0, 1.0);
-																			 border: 1px solid rgba(0, 0, 0, 1.0);
+													color: rgba(0, 0, 0, 1.0);
+											 border: 1px solid rgba(0, 0, 0, 0.0);
+											   background-color: rgba(255, 255, 255, 0.2);
 																		}
 																		body:has(.button-sub11-2:hover) .trauma-thumbnail11{
 																			cursor: pointer;
@@ -1869,20 +1849,563 @@ body:has(.button-sub8-2:hover) .trauma-thumbnail8 div{
 																					 visibility: visible; 
 																		 opacity: 1; 
 																		}
-									.end{
-											opacity:0.0;
-										width: 150px;
-																height: 150px;
-																display: flex;
-																z-index:0;
-											
-																	margin-top: 220px;
-		
-}
+
+
+
+
+
+
+
 #alcohol-and-drug-abuse-nav{
-	height:900px;
+	height:1100px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0))
 }
+.container3{
+		width: 100%;
+height:100%;
+position: relative;
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	grid template-rows: repeat(1,1fr);
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+.drug-line{
+	position: relative;
+	text-align: center;
+	top:150px;
+	height: 60px;
+}
+.epnom-green{
+	font-family: vcrmono;
+	font-size: 12pt;
+	position: relative;
+	top: 60px;
+	left: 0px;
+	width: 130px;
+	transform: rotate(30deg) skew(30deg);
+	 opacity: 0; 
+	 text-align: center;
+ visibility: hidden; 
+ -webkit-transition: visibility 0s, opacity 0.5s linear;  
+ transition: visibility 0s, opacity 0.5s linear;
+   border: 1px solid rgba(0, 0, 0, 1.0);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.0);
+  background-image: linear-gradient(0deg, rgba(134, 232, 88, 1.0) /*green*/,rgba(255, 255, 255, 1.0));
+  padding: 6px;
+}
+.drugs-thumbnail1{
+		width: 250px;
+	height: 150px;
+	display: flex;
+	z-index:11;
+	transition: 0.5s;
+		margin-top: 155px;
+				transition: 0.5s;
+}
+.drugs-thumbnail1:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drugs-thumbnail1:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.drugs-thumbnail1:hover) .button-sub1-3{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+body:has(.button-sub1-3:hover) .drugs-thumbnail1{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub1-3:hover) .drugs-thumbnail1 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+
+		.drugs-thumbnail2{
+			width: 250px;
+		height: 150px;
+		display: flex;
+		z-index:10;
+		transition: 0.5s;
+			margin-top: 155px;
+				transition: 0.5s;
+}
+.drugs-thumbnail2:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drugs-thumbnail2:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.drugs-thumbnail2:hover) .button-sub2-3{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+body:has(.button-sub2-3:hover) .drugs-thumbnail2{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub2-3:hover) .drugs-thumbnail2 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+			.drugs-thumbnail3{
+				width: 250px;
+			height: 150px;
+			display: flex;
+			z-index:9;
+			transition: 0.5s;
+				margin-top: 155px;
+				transition: 0.5s;
+}
+.drugs-thumbnail3:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drugs-thumbnail3:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.drugs-thumbnail3:hover) .button-sub3-3{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+body:has(.button-sub3-3:hover) .drugs-thumbnail3{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub3-3:hover) .drugs-thumbnail3 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+				.drugs-thumbnail4{
+				width: 250px;
+			height: 150px;
+			display: flex;
+			z-index:8;
+			transition: 0.5s;
+				margin-top: 155px;
+				transition: 0.5s;
+}
+.drugs-thumbnail4:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drugs-thumbnail4:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.drugs-thumbnail4:hover) .button-sub4-3{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+body:has(.button-sub4-3:hover) .drugs-thumbnail4{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub4-3:hover) .drugs-thumbnail4 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+					.drugs-thumbnail5{
+					width: 250px;
+				height: 150px;
+				display: flex;
+				z-index:7;
+				transition: 0.5s;
+					margin-top: 155px;
+				transition: 0.5s;
+}
+.drugs-thumbnail5:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drugs-thumbnail5:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.drugs-thumbnail5:hover) .button-sub5-3{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+body:has(.button-sub5-3:hover) .drugs-thumbnail5{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub5-3:hover) .drugs-thumbnail5 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+						.drugs-thumbnail6{
+						width: 250px;
+					height: 150px;
+					display: flex;
+					z-index:6;
+					transition: 0.5s;
+						margin-top: 155px;
+				transition: 0.5s;
+}
+.drugs-thumbnail6:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drugs-thumbnail6:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.drugs-thumbnail6:hover) .button-sub6-3{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+	 }
+body:has(.button-sub6-3:hover) .drugs-thumbnail6{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub6-3:hover) .drugs-thumbnail6 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+							.drugs-thumbnail7{
+							width: 250px;
+						height: 150px;
+						display: flex;
+						z-index:5;
+						transition: 0.5s;
+							margin-top: 155px;
+				transition: 0.5s;
+}
+.drugs-thumbnail7:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drugs-thumbnail7:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.drugs-thumbnail7:hover) .button-sub7-3{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+body:has(.button-sub7-3:hover) .drugs-thumbnail7{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub7-3:hover) .drugs-thumbnail7 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+								.drugs-thumbnail8{
+								width: 250px;
+							height: 150px;
+							display: flex;
+							z-index:4;
+							transition: 0.5s;
+								margin-top: 155px;
+				transition: 0.5s;
+}
+.drugs-thumbnail8:hover{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+.drugs-thumbnail8:hover div{
+		 visibility: visible; 
+ opacity: 1; 
+}
+body:has(.drugs-thumbnail8:hover) .button-sub8-3{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+body:has(.button-sub8-3:hover) .drugs-thumbnail8{
+	cursor: pointer;
+	transform: scale(1.3) translateY(-50px)translateX(50px);
+}
+body:has(.button-sub8-3:hover) .drugs-thumbnail8 div{
+			 visibility: visible; 
+ opacity: 1; 
+}
+													.drugs-thumbnail9{
+													width: 250px;
+												height: 150px;
+												display: flex;
+												z-index:3;
+												transition: 0.5s;
+													margin-top: 155px;
+									transition: 0.5s;
+					}
+					.drugs-thumbnail9:hover{
+						cursor: pointer;
+						transform: scale(1.3) translateY(-50px)translateX(50px);
+					}
+					.drugs-thumbnail9:hover div{
+							 visibility: visible; 
+					 opacity: 1; 
+					}
+					body:has(.drugs-thumbnail9:hover) .button-sub9-3{
+							color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+					}
+					body:has(.button-sub9-3:hover) .drugs-thumbnail9{
+						cursor: pointer;
+						transform: scale(1.3) translateY(-50px)translateX(50px);
+					}
+					body:has(.button-sub9-3:hover) .drugs-thumbnail9 div{
+								 visibility: visible; 
+					 opacity: 1; 
+					}
+																		.drugs-thumbnail10{
+													width: 250px;
+												height: 150px;
+												display: flex;
+												z-index:1;
+												transition: 0.5s;
+													margin-top: 155px;
+									transition: 0.5s;
+					}
+					.drugs-thumbnail10:hover{
+						cursor: pointer;
+						transform: scale(1.3) translateY(-50px)translateX(50px);
+					}
+					.drugs-thumbnail10:hover div{
+							 visibility: visible; 
+					 opacity: 1; 
+					}
+					body:has(.drugs-thumbnail10:hover) .button-sub10-3{
+							color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+					}
+					body:has(.button-sub10-3:hover) .drugs-thumbnail10{
+						cursor: pointer;
+						transform: scale(1.3) translateY(-50px)translateX(50px);
+					}
+					body:has(.button-sub10-3:hover) .drugs-thumbnail10 div{
+								 visibility: visible; 
+					 opacity: 1; 
+					}
+
+					.subtopics-3{
+	margin-top:-110px;
+	margin-left: 55px;
+	width:90%;
+	height:auto;
+	position: relative;
+
+
+}
+.button-sub1-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+}
+.button-sub1-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+		.button-sub2-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+	}
+	.button-sub2-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+				.button-sub3-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+		}
+		.button-sub3-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+					.button-sub4-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+			}
+			.button-sub4-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+					.button-sub5-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+						}
+						.button-sub5-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+						.button-sub6-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+					}
+					.button-sub6-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+					  	.button-sub7-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+						}
+						.button-sub7-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+						  	.button-sub8-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+							}
+							.button-sub8-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+										.button-sub9-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+										}
+										.button-sub9-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+										.button-sub10-3 {
+				  color: rgba(0, 0, 0, 1.0);
+  					border: 1px solid rgba(0, 0, 0, 1.0);
+					  font-family: courier-new;
+					  font-weight: normal;
+					  font-size: 12pt;
+					  border-radius: 0px;
+					  padding: 8px 10px;
+					  margin:10px;
+					  text-decoration: none;
+					  line-height: 18px;
+					  text-align: justify;
+										}
+										.button-sub10-3:hover{
+		color: rgba(0, 0, 0, 1.0);
+	 border: 1px solid rgba(0, 0, 0, 0.0);
+	   background-color: rgba(255, 255, 255, 0.2);
+}
+.Lbutton3{
+	position: relative;
+		margin-top: -835px;
+	text-align: left;
+		z-index: 15;
+		width:100px;
+		height:200px;
+}
+.Rbutton3{
+	position: relative;
+	margin: -180px 0 0 auto;
+text-align: right;
+		z-index: 15;
+			width:100px;
+		height:200px;
+}
+
+
 
 #conspiracy-theories-nav{
 	height:900px;
