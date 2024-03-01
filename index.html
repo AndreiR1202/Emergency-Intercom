@@ -114,8 +114,8 @@
 						<div class="white-gradient2"> </div>
 						<div class="white-gradient3"> </div>
 
-			<div class="Lbutton0"><button class="icon-left" onclick="scrolll0()"> <i class="fa-solid fa-chevron-left"></i> </button> </div> 
-			<div class="Rbutton0"><button class="icon-right" onclick="scrollr0()"> <i class="fa-solid fa-chevron-right"></i> </button> </div>
+			<div class="Lbutton0"><button class="icon-left"> <i class="fa-solid fa-caret-left"></i> </button> </div> 
+			<div class="Rbutton0"><button class="icon-right"> <i class="fa-solid fa-caret-right"></i> </button> </div>
 
 					<div class="container-comments">
 
@@ -190,16 +190,31 @@
 <div class="footer"> 
 
 </div>
-
+  <!-- https://stackoverflow.com/questions/71323266/how-can-i-scroll-automatically-on-hover and ChatGPT -->
 <script>
-	function scrolll0(){
-		var left=document.querySelector(".container-comments");
-		left.scrollBy(-1300,0)
-	}
-	function scrollr0(){
-		var right=document.querySelector(".container-comments");
-		right.scrollBy(1300,0)
-}
+let nav = document.querySelector(".container-comments");
+let left = document.querySelector(".Lbutton0 .icon-left");
+let right = document.querySelector(".Rbutton0 .icon-right");
+
+let scrollSpeed = 55; // Adjust this value to increase or decrease the scroll speed
+let intervalDuration = 55 ; // Increase the interval duration for smoother scrolling
+let idx;
+
+left.addEventListener("mouseenter", function(){
+  idx = setInterval(() => nav.scrollLeft -= scrollSpeed, intervalDuration);
+});
+
+left.addEventListener("mouseleave", function(){
+  clearInterval(idx);
+});
+
+right.addEventListener("mouseenter", function(){
+  idx = setInterval(() => nav.scrollLeft += scrollSpeed, intervalDuration);
+});
+
+right.addEventListener("mouseleave", function(){
+  clearInterval(idx);
+});
 </script>
 
 </body>
