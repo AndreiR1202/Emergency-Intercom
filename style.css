@@ -624,6 +624,19 @@ text-align: right;
 .drew-character:hover {
 	transform: scale(1.2);
 }
+.drawingL{
+	position: relative;
+	left: 310px;
+	width: 300px;
+	top:-200px;
+}
+.drawingR{
+	position: relative;
+	width:320px;
+	left:1300px;
+	top:-480px;
+
+}
 
 .Library-Help{
 	display: flex;
@@ -698,7 +711,7 @@ button{
 }
 .button-section{
 	text-align: center;
-	margin-top:0px;
+	margin-top:-500px;
               height:auto;
    display:block;
    padding-top: 100px;
