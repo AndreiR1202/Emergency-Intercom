@@ -706,10 +706,8 @@ text-decoration: none;
 text-decoration: none;
 	color: rgba(0, 0, 0, 1.0);
 }
-#library{
+.library{
 	text-align: center;
-       font-family:vcrmono;
-       font-size: 100pt;
        top:0px;
        left:200 px;
        color: rgba(0, 0, 0, 1.0);
