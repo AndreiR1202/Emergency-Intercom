@@ -34,6 +34,10 @@ div{
 	color:rgba(0,0,0,1.0);
 	text-shadow: 0 0 32px rgba(255, 255, 255, 1.0);
 }
+.top{
+		height:120px;
+ 	color:white;
+}
 
 .EIig a{
 	  text-decoration: none;
@@ -105,10 +109,10 @@ a:visited{
   	z-index: 100;
 }
 #nav{
-	float: left;
-	margin-left: 20px;
+	float: right;
+	margin-right: 30px;
 	margin-top:45px;
-	width: 600px;
+	width: 350px;
 	font-family: vcrmono;
 	font-weight:normal;
 	color:rgba(0,0,0,1.0);
@@ -116,7 +120,14 @@ a:visited{
 }
 #corner-logo{
 	float: left;
-	margin: 20px;
+	margin-left: 30px;
+	margin-top: 25px;
+
+}
+#ei-header{
+	float: left;
+	margin-left: 30px;
+margin-top: 35px;
 
 }
 .video-position{
@@ -144,8 +155,8 @@ a:visited{
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(252, 159, 49, 1.0) /*orange*/,rgba(255, 255, 255, 1.0))
 }
 #aboutnav{
-	height:2000px;
-	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0));
+	height:1900px;
+	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/,rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0));
  /*green*/
 
 }
@@ -168,7 +179,7 @@ a:visited{
 	width: 1300px;
 	height:575px;
 	margin: 0 auto;
-	left:120px;
+	margin-left:200px;
 	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	grid template-rows: repeat(1,1fr);
@@ -523,17 +534,17 @@ text-align: right;
 }
 
 .icon-left0{
-	color: rgba(134, 232, 88, 1.0);
+	color: rgba(255, 255, 255, 1.0);
 	font-size: 70px;
 	padding: 30px;
 	cursor:pointer;
-	transition: 0.5s
+	transition: 0.5s;
 }
 .icon-left0:hover{
 	transform: scale(1.3)
 }
 .icon-right0 {
-	color: rgba(134, 232, 88, 1.0);
+	color: rgba(255, 255, 255, 1.0);
 	font-size: 70px;
 	padding: 30px;
 	cursor:pointer;
@@ -626,14 +637,14 @@ text-align: right;
 }
 .drawingL{
 	position: relative;
-	left: 310px;
+	left: 250px;
 	width: 300px;
 	top:-200px;
 }
 .drawingR{
 	position: relative;
 	width:320px;
-	left:1300px;
+	left:1180px;
 	top:-480px;
 
 }
@@ -5234,22 +5245,228 @@ text-align: right;
 }
 
 
-#merchandisenav{
-	height:1000px;
- 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 87, 148, 1.0)/*magenta*/,rgba(255, 255, 255, 1.0))
-}
 #eventsnav{
-	height:2000px;
- 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/, rgba(255, 255, 255, 1.0)) /*green*/
+	height:2400px;
+ 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(134, 232, 88, 1.0) /*green*/,rgba(134, 232, 88, 1.0) /*green*/,rgba(255, 255, 255, 1.0)) 
+}
+
+.event-container{
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid template-rows: repeat(2,1fr);
+	width: 70%;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	height: auto;
+	margin-bottom: 50px;
+
+
+}
+
+.event-box{
+	width: 320px;
+	height:615px;
+	border: 1px solid rgba(0, 0, 0, 1.0);
+	border-radius: 50px;
+	background-color: rgba(255, 255, 255, 0.4);
+	display: block;
+	margin:30px;
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.0));
+	  box-shadow: 5px 3px 4px 1px rgba(0, 0, 0, 0.2), 3px 5px 4px 1px rgba(0, 0, 0, 0.2)
+}
+.event-box2{
+	width: 320px;
+	height:615px;
+	border: 1px solid rgba(0, 0, 0, 1.0);
+	border-radius: 50px;
+	background-color: rgba(255, 255, 255, 0.4);
+	display: block;
+	margin:30px;
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.0));
+	  box-shadow: 5px 3px 4px 1px rgba(0, 0, 0, 0.2), 3px 5px 4px 1px rgba(0, 0, 0, 0.2);
+	  opacity: 0;
+}
+.green-bar{
+	position: relative;
+text-align: center;
+margin-top: 30px;
+}
+.event-date{
+	font-family: vcrmono;
+	font-size: 20pt;
+	text-align: center;
+	margin-top: -38px;
+	letter-spacing: 1pt;
+}
+.event-img{
+		position: relative;
+text-align: center;
+margin-top: 30px;
+}
+.event-info{
+			position: relative;
+text-align: center;
+margin-top: 30px;
+
+}
+
+.event-title{
+	font-family: vcrmono;
+	font-size: 17pt;
+	line-height: 17pt;
+	text-align: left;
+		position: relative;
+		margin-left: 29px;
+		width:260px;
+		margin-top: -20px;
+}
+.hor-line{
+	width: 260px;
+	border-bottom: 1px solid rgba(0, 0, 0, 1.0);
+	text-align:center;
+	margin:auto;
+	height:0px;
+	padding-bottom: 10px;
+}
+.event-details{
+	font-family: courier-new;
+	font-size: 10pt;
+	line-height: 11pt;
+	text-align: center;
+		position: relative;
+
+		padding-top: 10px;
+		height:20px;
+
+		margin-left:35px;
+		margin-right:35px;
+
+
+}
+.more-info a{
+		font-family: courier-new;
+	font-size: 10pt;
+	text-align: center;
+
+	text-decoration: underline;
+	color: rgba(0, 0, 0, 1.0);
+bottom:25px;
+	width: 30%;
+	position: absolute;
+	left:110px;
+}
+.more-info a:hover{
+	font-family: courier-bold;
+
+}
+
+.year-line{
+		width: 660px;
+	border-bottom: 3px solid rgba(0, 0, 0, 1.0);
+	height:0px;
+	position: absolute;
+margin-left: 86px;
+margin-top: 40px;
+}
+.year-line2{
+		width: 660px;
+	border-bottom: 3px solid rgba(0, 0, 0, 1.0);
+	height:0px;
+	position: absolute;
+right:86px;
+margin-top: -18px;
+}
+.year{
+	font-family: vcrmono;
+	font-size: 40pt;
+	position: relative;
+	margin:auto;
+	top:10px;
+	text-align: center;
+}
+
+#merchandise{
+	height:900px;
+ 	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0),rgba(255, 211, 58, 1.0) /*yellow*/, rgba(255, 255, 255, 1.0));
+
+}
+.merchandise-title{
+	position: relative;
+	top: 50px ;
+	text-align: center;
+
+}
+.merch-img{
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top:120px;
+}
+.merch-img4{
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top:70px;
+}
+.ei-website a{
+		position: relative;
+	top: 100px ;
+	text-align: center;
+	font-family: courier-new;
+	font-size: 20pt;
+	background-color: rgba(134, 232, 88, 1.0);
+	border: 1px solid rgba(0, 0, 0, 0.0);
+	border-radius: 30px;
+	padding:10px 20px;
+	width: 500px;
+	left:39%;
+
+	color: rgba(0, 0, 0, 1.0);
+}
+
+.ei-website a:hover{
+text-decoration: underline;
+}
+
+.ei-website a:link{
+	text-decoration: none;
+}
+
+.ei-website a:visited{
+text-decoration: none;
 }
 .footer{
-	height:120px;
+	height:180px;
  	background-image: linear-gradient(180deg, rgba(255, 255, 255, 1.0), rgba(255, 87, 148, 1.0)/*magenta*/);
 bottom:0;
 width:100%;
 
 }
+.socials-icon2{
+	padding-right: 15px;
+}
 
+.foot-icon{
+	position: relative;
+	height: 50px;
+	bottom: -75px;
+	text-align: center;
+	margin-right:20px;
+	left:15px;
+
+}
+.copyright{
+	position:relative;
+	bottom:-90px;
+	text-align: center;
+	font-family: vcrmono;
+	letter-spacing: 1px;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 12px;
+}
 
 
 
