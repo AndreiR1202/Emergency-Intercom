@@ -179,8 +179,8 @@ margin-top: 35px;
 	width: 1300px;
 	height:575px;
 	margin: 0 auto;
-	margin-left:200px;
 	display: grid;
+	justify-content:center;
 	grid-template-columns: repeat(7, 1fr);
 	grid template-rows: repeat(1,1fr);
 }
@@ -384,7 +384,11 @@ text-align: center;
        top:260px;
        left:200 px;
 }
-
+.about-text-whole{
+		margin: 0 auto;
+	display: grid;
+	justify-content:center;
+}
 .about-text{
 	text-align: left;
 	  margin-top:200px;
@@ -642,19 +646,7 @@ text-align: right;
 .drew-character:hover {
 	transform: scale(1.2);
 }
-.drawingL{
-	position: relative;
-	left: 250px;
-	width: 300px;
-	top:-200px;
-}
-.drawingR{
-	position: relative;
-	width:320px;
-	left:1180px;
-	top:-480px;
 
-}
 
 .Library-Help{
 	display: flex;
@@ -713,7 +705,7 @@ text-decoration: none;
 text-decoration: none;
 	color: rgba(0, 0, 0, 1.0);
 }
-.library{
+.libraryTitle{
 	text-align: center;
        top:0px;
        left:200 px;
@@ -727,7 +719,7 @@ button{
 }
 .button-section{
 	text-align: center;
-	margin-top:-540px;
+	margin-top:px;
               height:auto;
    display:block;
    padding-top: 100px;
